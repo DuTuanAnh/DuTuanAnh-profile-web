@@ -1,0 +1,246 @@
+@media (max-width: 1024px) {
+  .content-row {
+    flex-direction: column;
+    padding: 8px 0;
+  }
+  .content-col__18 {
+    width: 100%;
+    margin-bottom: 24px;
+  }
+  .content-container {
+    margin: 16px 0;
+    padding: 16px 10px;
+  }
+  .content-col__14 {
+    width: 100%;
+  }
+  .header-container {
+    margin: 12px 0;
+    padding: 12px 8px;
+  }
+  .header-text {
+    font-size: 2.2rem;
+    padding-left: 18px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+  .avatar-img {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+  }
+  .avatar-img img {
+    width: 90%;
+    height: 90%;
+    border-radius: 8px;
+  }
+  .btn-check {
+    width: 50%;
+    font-size: 1rem;
+    padding: 8px 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  #content {
+    padding: 0 4px;
+  }
+  .content-row {
+    flex-direction: column;
+    padding: 0;
+  }
+  .content-col__18 {
+    width: 100%;
+    margin-bottom: 18px;
+  }
+  .content-container {
+    margin: 10px 0;
+    padding: 12px 4px;
+  }
+  .content-img {
+    width: 90px;
+    height: 90px;
+  }
+  .content-center h2,
+  .content-extra h2,
+  .content-skills h2,
+  .content-language h2 {
+    font-size: 20px;
+  }
+  .info-center h2,
+  .skills-center h2,
+  .language-center h2,
+  .extra-item h2 {
+    font-size: 16px;
+  }
+  .progress-bar {
+    height: 4px;
+  }
+  .btn-download {
+    font-size: 15px;
+    padding: 8px 10px;
+  }
+  .extra-item i {
+    font-size: 18px;
+    margin-right: 8px;
+  }
+  .social-list ul {
+    gap: 18px;
+  }
+  .social-list li {
+    width: 32px;
+    height: 32px;
+    font-size: 18px;
+  }
+  .row {
+    flex-direction: column;
+    gap: 18px;
+  }
+  .col-md-6 {
+    width: 100%;
+    flex: unset;
+    display: block;
+  }
+  .header-text {
+    font-size: 1.4rem;
+    padding-left: 0;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    text-align: center;
+    margin-bottom: 12px;
+  }
+  .header-text h2 {
+    font-size: 16px;
+  }
+  .btn-check {
+    width: 80%;
+    font-size: 0.95rem;
+    padding: 8px 0;
+    margin: 0 auto;
+    display: block;
+  }
+  .avatar-img {
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  .avatar-img img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    max-width: 350px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .content-container {
+    padding: 8px 2px;
+  }
+  .content-img {
+    width: 60px;
+    height: 60px;
+  }
+  .content-center h2,
+  .content-extra h2,
+  .content-skills h2,
+  .content-language h2 {
+    font-size: 16px;
+  }
+  .info-center h2,
+  .skills-center h2,
+  .language-center h2,
+  .extra-item h2 {
+    font-size: 13px;
+  }
+  .progress-bar {
+    height: 3px;
+  }
+  .btn-download {
+    font-size: 13px;
+    padding: 6px 4px;
+  }
+  .extra-item i {
+    font-size: 14px;
+    margin-right: 6px;
+  }
+  .social-list ul {
+    gap: 10px;
+  }
+  .social-list li {
+    width: 24px;
+    height: 24px;
+    font-size: 13px;
+  }
+  .header-container {
+    padding: 6px 2px;
+  }
+  .header-text {
+    font-size: 1.1rem;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+  .header-text h2 {
+    font-size: 13px;
+  }
+  .btn-check {
+    width: 30%;
+    font-size: 0.9rem;
+    padding: 6px 0;
+  }
+
+  .check-text {
+    display: block;
+    text-align: center;
+  }
+  .avatar-img img {
+    max-width: 220px;
+  }
+}
+
+@media (max-width: 900px) {
+  .services-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  .education-list {
+    padding: 18px 6px;
+  }
+  .education-item {
+    flex-direction: column;
+    gap: 8px;
+    padding: 24px 0;
+  }
+  .edu-left, .edu-right {
+    width: 100%;
+  }
+  .projects-grid {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .project-item {
+    width: 90%;
+    max-width: 400px;
+  }
+  .contact-content {
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+  }
+  .contact-form, .contact-info {
+    width: 100%;
+    min-width: unset;
+  }
+}
+@media (max-width: 600px) {
+  .services-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+  .service-item {
+    padding: 24px 10px 18px 10px;
+  }
+}
