@@ -251,55 +251,63 @@ hr {
 }
 
 .content-extra {
-    align-items: center;
-    margin-bottom: 20px;
+  align-items: center;
+  margin-bottom: 20px;
 }
 
 .content-extra h2 {
-    color: #222; 
-    font-weight: 500;
-    font-size: 28px;
+  color: #222; 
+  font-weight: 500;
+  font-size: 28px;
 }
 
 .extra-item {
-    display:  flex;
+  display:  flex;
 }
 
 .extra-item i {
-    color: orange;
-    margin-top: 10px;
-    margin-right: 14px;
+  color: orange;
+  margin-top: 10px;
+  margin-right: 14px;
 }
 
 .extra-item h2 {
-    font-weight: 400;
-    color: #000;
-    font-size: 20px;
-    opacity: 0.5;
+  font-weight: 400;
+  color: #000;
+  font-size: 20px;
+  opacity: 0.5;
 }
 
 .btn-download {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background: orange;
   border: none;
   width: 100%;
   padding: 10px 24px;
   cursor: pointer;
-  transition: background 0.2s;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #222;
+  transition: background 0.2s, color 0.2s;
+  gap: 8px; 
 }
 
-.btn-download .download-text a,
-.btn-download .download-text i {
+.btn-download i {
   color: #222;
-  text-decoration: none;
+  font-size: 1.1em;
   transition: color 0.2s;
 }
 
 .btn-download:hover {
   background: #222;
+  color: #fff;
 }
 
-.btn-download:hover .download-text a,
-.btn-download:hover .download-text i {
+.btn-download:hover i {
   color: #fff;
 }
 
@@ -308,21 +316,21 @@ hr {
 }
 
 .header-container {
-    color: #F0F0F6;
-    background-color: #fff;
-    padding: 16px 24px;
-    margin: 16px 16px;
+  color: #F0F0F6;
+  background-color: #fff;
+  padding: 16px 24px;
+  margin: 16px 16px;
 }
 
 .row {
-    display: flex;
-    align-items: center;      
-    justify-content: space-between; 
-    gap: 32px;
+  display: flex;
+  align-items: center;      
+  justify-content: space-between; 
+  gap: 32px;
 }
 
 .col-md-6 {
-    flex: 1;
+  flex: 1;
 }
 
 .header-text {
@@ -343,10 +351,10 @@ hr {
 }
 
 .header-text h2 {  
-    font-size: 20px;
-    font-weight: 400;
-    opacity: 0.5;
-    margin: 10px 0;
+  font-size: 20px;
+  font-weight: 400;
+  opacity: 0.5;
+  margin: 10px 0;
 }
 
 .btn-check {
@@ -360,9 +368,9 @@ hr {
 }
 
 .check-text {
-    display: flex;
-    align-items: center;
-    gap: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .btn-check .check-text a,
